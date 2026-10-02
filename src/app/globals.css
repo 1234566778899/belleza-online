@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+@theme {
+  /* Paleta medida de la plantilla Sleek (Shopify): monocromática negro/blanco con neutros
+     cálidos (crema, nude, rubor) para los fondos de sección y rojo solo para ofertas.
+     Todos los pares texto/fondo cumplen AA. */
+  --color-brand: #000000; /* botones principales y textos de marca */
+  --color-brand-dark: #333333; /* hover de botones */
+  --color-accent: #000000; /* enlaces (se distinguen por el subrayado) */
+  --color-accent-dark: #333333;
+  --color-cream: #f3eeea; /* color-scheme-2: secciones crema, testimonios, preguntas */
+  --color-nude: #e8dcd0; /* color-scheme-4: imagen con texto */
+  --color-nude-dark: #c6bfb1; /* bordes sobre crema */
+  --color-nude-deep: #5d5853; /* texto secundario sobre nude */
+  --color-blush: #f4e4e3; /* color-scheme-6 */
+  --color-card: #f6f6f6; /* fondo de la imagen en tarjetas de producto */
+  --color-field: #f5f5f5; /* campos de formulario */
+  --color-new: #3f7a48; /* badge "Nuevo" (verde de la plantilla oscurecido para AA) */
+  --color-stock: #2e7d00;
+  --color-sale: #d63a2f; /* precio en oferta, badge de descuento y burbuja del carrito */
+  --color-ink: #000000;
+  --color-muted: #666666;
+  --color-line: #e6e6e6;
+
+  --font-sans: var(--font-dm-sans);
+  --heading: var(--font-dm-sans);
+}
+
+body {
+  background: #fff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+/* Safari de iPhone/iPad hace zoom al enfocar un campo con letra menor a 16px. Solo en iOS
+   (-webkit-touch-callout no existe en otros navegadores) subimos los campos a 16px; al estar
+   fuera de @layer, esta regla gana a utilidades como text-[14px]. */
+@supports (-webkit-touch-callout: none) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* page-width de la plantilla: 1410px de contenido, 15px de margen en móvil, 50px desde 1200px
+   y al menos 135px desde 1536px. */
+.container-page {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+@media (min-width: 768px) {
+  .container-page {
+    padding-inline: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-page {
+    padding-inline: 50px;
+  }
+}
+@media (min-width: 1536px) {
+  .container-page {
+    padding-inline: max(135px, calc(50% - 705px));
+  }
+}
+
+/* Contenedor angosto de páginas de texto (envíos, preguntas frecuentes). */
+.container-narrow {
+  width: 100%;
+  max-width: 980px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+@media (min-width: 750px) and (max-width: 989px) {
+  .container-narrow {
+    padding-inline: 90px;
+  }
+}
+
+/* En @layer components para que las utilidades de Tailwind (h-11, px-4…) puedan ajustarlas. */
+@layer components {
+  /* Títulos como la plantilla: DM Sans 500 con tracking -0.02em. */
+  .heading {
+    font-family: var(--font-dm-sans);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  /* Escala de títulos de Sleek (clamp entre 320 y 1600px de ancho). */
+  .text-hd1 {
+    font-size: clamp(36px, calc(2.34vw + 30px), 60px);
+    line-height: 1.1;
+  }
+  .text-h1 {
+    font-size: clamp(28px, calc(1.56vw + 20px), 40px);
+  }
+  .text-h2 {
+    font-size: clamp(24px, calc(1.25vw + 16px), 32px);
+  }
+  .text-h3 {
+    font-size: clamp(20px, calc(1.09vw + 14px), 28px);
+  }
+  .text-h4 {
+    font-size: clamp(17.6px, calc(0.86vw + 11px), 22px);
+  }
+
+  /* Subtítulo pequeño sobre los títulos de sección. */
+  .subheading {
+    font-size: 17.9px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  /* Botón píldora de la plantilla: 48px de alto, radio 24px, DM Sans 500. */
+  .btn {
+    display: inline-flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border-radius: 24px;
+    padding-inline: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  .btn-primary {
+    background: var(--color-brand);
+    color: #fff;
+    border: 1px solid var(--color-brand);
+  }
+  .btn-primary:hover {
+    background: var(--color-brand-dark);
+    border-color: var(--color-brand-dark);
+  }
+  .btn-light {
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+  }
+  .btn-light:hover {
+    background: var(--color-brand);
+    border-color: var(--color-brand);
+    color: #fff;
+  }
+  .btn-outline {
+    border: 1px solid currentColor;
+  }
+  .btn-outline:hover {
+    background: var(--color-brand);
+    border-color: var(--color-brand);
+    color: #fff;
+  }
+
+  /* Enlace "Ver todo" subrayado de la plantilla. */
+  .link-underline {
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+  }
+  .link-underline:hover {
+    text-decoration-thickness: 2px;
+  }
+}
+
+/* Carruseles con scroll horizontal sin barra visible. */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}

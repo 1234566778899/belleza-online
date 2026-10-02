@@ -1,0 +1,557 @@
+{
+  "style": "Photorealistic, high detail, clean beauty e-commerce photography. Palette: soft blush pink, warm nude, cream and beige neutrals with black accents, lots of soft natural light; minimal, elegant and premium like a modern skincare brand. No text, no letters, no logos, no brand names, no watermark.",
+  "images": [
+    {
+      "key": "hero-1",
+      "file": "hero-1.svg",
+      "size": "1920x900",
+      "bg": "#efd9d3",
+      "label": "Slide 1: mujer sonriendo",
+      "prompt": "Two joyful Latin American women (Peruvian) with glowing natural skin, laughing and hugging, bare shoulders, standing on the right half of the frame; plain soft blush-pink studio backdrop, the left half clean and empty for headline text. Wide beauty campaign photo."
+    },
+    {
+      "key": "hero-2",
+      "file": "hero-2.svg",
+      "size": "1920x900",
+      "bg": "#e8dcd0",
+      "label": "Slide 2: perfumes",
+      "prompt": "Elegant glass perfume bottles of different shapes on travertine stone blocks with dried pampas grass and soft shadows, placed on the right half; warm nude beige backdrop, left half empty for text. Wide still life campaign photo."
+    },
+    {
+      "key": "hero-3",
+      "file": "hero-3.svg",
+      "size": "1920x900",
+      "bg": "#f3eeea",
+      "label": "Slide 3: maquillaje",
+      "prompt": "Makeup flat lay on the right half: lipsticks, eyeshadow palette, compact powder, brushes and swatches of foundation on a cream background, left half clean and empty for text. Wide top-down beauty photo."
+    },
+    {
+      "key": "col-perfumes",
+      "file": "col-perfumes.svg",
+      "size": "900x1100",
+      "bg": "#e8dcd0",
+      "label": "Perfumes",
+      "prompt": "Three elegant unbranded perfume bottles with amber and pink liquid on a beige pedestal, soft shadows, cream background."
+    },
+    {
+      "key": "col-maquillaje",
+      "file": "col-maquillaje.svg",
+      "size": "900x1100",
+      "bg": "#f4e4e3",
+      "label": "Maquillaje",
+      "prompt": "Lipsticks, a blush compact and makeup brushes arranged on a blush pink background, soft light."
+    },
+    {
+      "key": "col-facial",
+      "file": "col-facial.svg",
+      "size": "900x1100",
+      "bg": "#f3eeea",
+      "label": "Cuidado facial",
+      "prompt": "Skincare serum dropper bottle, a cream jar and a facial roller on a cream background with water droplets."
+    },
+    {
+      "key": "col-corporal",
+      "file": "col-corporal.svg",
+      "size": "900x1100",
+      "bg": "#efe3d6",
+      "label": "Cuidado corporal",
+      "prompt": "Body lotion bottle, a bar of natural soap and a cotton towel on a warm beige background with eucalyptus leaves."
+    },
+    {
+      "key": "col-cabello",
+      "file": "col-cabello.svg",
+      "size": "900x1100",
+      "bg": "#ece6df",
+      "label": "Cabello",
+      "prompt": "Shampoo and conditioner bottles with a wooden comb on a light beige background, minimal."
+    },
+    {
+      "key": "col-regalos",
+      "file": "col-regalos.svg",
+      "size": "900x1100",
+      "bg": "#f2dcd6",
+      "label": "Sets de regalo",
+      "prompt": "An open gift box with perfume, body cream and a satin ribbon on a blush background."
+    },
+    {
+      "key": "brand-esika",
+      "file": "brand-esika.svg",
+      "size": "900x1100",
+      "bg": "#f4e4e3",
+      "label": "Ésika",
+      "prompt": "Beauty products still life representing a Ésika-style catalog (perfume, skincare and makeup) on a soft neutral background, no logos, no text."
+    },
+    {
+      "key": "brand-natura",
+      "file": "brand-natura.svg",
+      "size": "900x1100",
+      "bg": "#e6e1d3",
+      "label": "Natura",
+      "prompt": "Beauty products still life representing a Natura-style catalog (perfume, skincare and makeup) on a soft neutral background, no logos, no text."
+    },
+    {
+      "key": "brand-lbel",
+      "file": "brand-lbel.svg",
+      "size": "900x1100",
+      "bg": "#ede4dc",
+      "label": "L'Bel",
+      "prompt": "Beauty products still life representing a L'Bel-style catalog (perfume, skincare and makeup) on a soft neutral background, no logos, no text."
+    },
+    {
+      "key": "brand-cyzone",
+      "file": "brand-cyzone.svg",
+      "size": "900x1100",
+      "bg": "#f6dfe5",
+      "label": "Cyzone",
+      "prompt": "Beauty products still life representing a Cyzone-style catalog (perfume, skincare and makeup) on a soft neutral background, no logos, no text."
+    },
+    {
+      "key": "brand-yanbal",
+      "file": "brand-yanbal.svg",
+      "size": "900x1100",
+      "bg": "#efe6db",
+      "label": "Yanbal",
+      "prompt": "Beauty products still life representing a Yanbal-style catalog (perfume, skincare and makeup) on a soft neutral background, no logos, no text."
+    },
+    {
+      "key": "iwt-original",
+      "file": "iwt-original.svg",
+      "size": "1100x1100",
+      "bg": "#d9c6b4",
+      "label": "Productos originales",
+      "prompt": "Close-up of a smiling Latin American woman applying face cream, natural glowing skin, soft warm light, beige tones."
+    },
+    {
+      "key": "card-perfumes",
+      "file": "card-perfumes.svg",
+      "size": "900x1100",
+      "bg": "#d8c3b5",
+      "label": "Perfumes",
+      "prompt": "A hand holding an elegant perfume bottle against a warm beige wall with sunlight and shadows, lifestyle photo."
+    },
+    {
+      "key": "card-maquillaje",
+      "file": "card-maquillaje.svg",
+      "size": "900x1100",
+      "bg": "#e6c9c4",
+      "label": "Maquillaje",
+      "prompt": "Close-up of a woman's lips with a nude lipstick and a makeup brush, blush pink tones, beauty editorial."
+    },
+    {
+      "key": "card-regalos",
+      "file": "card-regalos.svg",
+      "size": "900x1100",
+      "bg": "#d9cbbd",
+      "label": "Regalos",
+      "prompt": "Gift boxes wrapped in cream paper with satin ribbons, a perfume and a candle, cozy warm light."
+    },
+    {
+      "key": "circle-1",
+      "file": "circle-1.svg",
+      "size": "400x400",
+      "bg": "#e8dcd0",
+      "label": "Círculo 1",
+      "prompt": "Close-up of a skincare serum drop on fingertips, soft beige background."
+    },
+    {
+      "key": "circle-2",
+      "file": "circle-2.svg",
+      "size": "400x400",
+      "bg": "#f4e4e3",
+      "label": "Círculo 2",
+      "prompt": "Pink lipstick swatches on a blush background, macro."
+    },
+    {
+      "key": "circle-3",
+      "file": "circle-3.svg",
+      "size": "400x400",
+      "bg": "#f3eeea",
+      "label": "Círculo 3",
+      "prompt": "Perfume bottle with flowers on cream background."
+    },
+    {
+      "key": "faq-image",
+      "file": "faq-image.svg",
+      "size": "800x1000",
+      "bg": "#e8dcd0",
+      "label": "Preguntas frecuentes",
+      "prompt": "A woman at a vanity table organizing perfumes and skincare products, warm natural light, beige interior."
+    },
+    {
+      "key": "contact-hero",
+      "file": "contact-hero.svg",
+      "size": "1536x1024",
+      "bg": "#e8dcd0",
+      "label": "Contacto",
+      "prompt": "A friendly Latin American beauty advisor smiling while helping a customer choose perfumes in a bright minimal boutique with beige shelves."
+    },
+    {
+      "key": "contact-form",
+      "file": "contact-form.svg",
+      "size": "1024x1024",
+      "bg": "#f3eeea",
+      "label": "Formulario de contacto",
+      "prompt": "Smartphone showing a chat next to perfume and lipstick on a cream table, top-down."
+    },
+    {
+      "key": "faq-hero",
+      "file": "faq-hero.svg",
+      "size": "1536x1024",
+      "bg": "#f4e4e3",
+      "label": "Preguntas frecuentes",
+      "prompt": "Flat lay of beauty products, a notebook and a coffee cup on a blush background."
+    },
+    {
+      "key": "stores-intro",
+      "file": "stores-intro.svg",
+      "size": "1024x768",
+      "bg": "#ede4dc",
+      "label": "Nuestras tiendas",
+      "prompt": "Interior of a bright modern beauty store with beige shelves full of perfumes and skincare, warm lighting."
+    },
+    {
+      "key": "store-miraflores",
+      "file": "store-miraflores.svg",
+      "size": "1024x1024",
+      "bg": "#e8dcd0",
+      "label": "Tienda Miraflores",
+      "prompt": "Storefront of a small minimal beauty shop in Lima with large windows and beige interior."
+    },
+    {
+      "key": "store-sanisidro",
+      "file": "store-sanisidro.svg",
+      "size": "1024x1024",
+      "bg": "#f3eeea",
+      "label": "Tienda San Isidro",
+      "prompt": "Interior corner of a beauty boutique with a mirror, a vanity counter and perfume displays."
+    },
+    {
+      "key": "collection-default",
+      "file": "collection-default.svg",
+      "size": "1536x1024",
+      "bg": "#e8dcd0",
+      "label": "Colección",
+      "prompt": "Assorted beauty products (perfumes, skincare, makeup) arranged on beige stone blocks, soft shadows."
+    },
+    {
+      "key": "p-perfume-floral",
+      "file": "p-perfume-floral.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#e9a9b6",
+      "shape": "bottle",
+      "label": "Perfume floral",
+      "prompt": "An elegant unbranded glass perfume bottle with pale pink liquid and a gold cap on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-perfume-floral-alt",
+      "file": "p-perfume-floral-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#e9a9b6",
+      "shape": "bottle",
+      "label": "Perfume floral",
+      "prompt": "An elegant unbranded glass perfume bottle with pale pink liquid and a gold cap on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-perfume-amaderado",
+      "file": "p-perfume-amaderado.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#7a5a43",
+      "shape": "bottle-square",
+      "label": "Perfume amaderado",
+      "prompt": "A square dark amber glass men's perfume bottle with a black cap on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-perfume-amaderado-alt",
+      "file": "p-perfume-amaderado-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#7a5a43",
+      "shape": "bottle-square",
+      "label": "Perfume amaderado",
+      "prompt": "A square dark amber glass men's perfume bottle with a black cap on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-colonia-citrica",
+      "file": "p-colonia-citrica.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#e8c766",
+      "shape": "bottle-tall",
+      "label": "Colonia cítrica",
+      "prompt": "A tall clear glass cologne bottle with light yellow citrus liquid on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-colonia-citrica-alt",
+      "file": "p-colonia-citrica-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#e8c766",
+      "shape": "bottle-tall",
+      "label": "Colonia cítrica",
+      "prompt": "A tall clear glass cologne bottle with light yellow citrus liquid on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-body-splash",
+      "file": "p-body-splash.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#f1c9a5",
+      "shape": "spray",
+      "label": "Body splash",
+      "prompt": "A frosted plastic body splash spray bottle with peach liquid on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-body-splash-alt",
+      "file": "p-body-splash-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#f1c9a5",
+      "shape": "spray",
+      "label": "Body splash",
+      "prompt": "A frosted plastic body splash spray bottle with peach liquid on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-labial-mate",
+      "file": "p-labial-mate.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#b3262e",
+      "shape": "lipstick",
+      "label": "Labial mate",
+      "prompt": "A matte red lipstick in an elegant black and gold case, cap off on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-labial-mate-alt",
+      "file": "p-labial-mate-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#b3262e",
+      "shape": "lipstick",
+      "label": "Labial mate",
+      "prompt": "A matte red lipstick in an elegant black and gold case, cap off on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-base-liquida",
+      "file": "p-base-liquida.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#d9a882",
+      "shape": "dropper",
+      "label": "Base líquida",
+      "prompt": "A frosted glass liquid foundation bottle with a pump, beige liquid on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-base-liquida-alt",
+      "file": "p-base-liquida-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#d9a882",
+      "shape": "dropper",
+      "label": "Base líquida",
+      "prompt": "A frosted glass liquid foundation bottle with a pump, beige liquid on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-mascara",
+      "file": "p-mascara.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#222222",
+      "shape": "tube-thin",
+      "label": "Máscara de pestañas",
+      "prompt": "A black mascara tube with the wand beside it on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-mascara-alt",
+      "file": "p-mascara-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#222222",
+      "shape": "tube-thin",
+      "label": "Máscara de pestañas",
+      "prompt": "A black mascara tube with the wand beside it on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-paleta-sombras",
+      "file": "p-paleta-sombras.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#c49a84",
+      "shape": "palette",
+      "label": "Paleta de sombras",
+      "prompt": "An open eyeshadow palette with 12 nude and brown shades on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-paleta-sombras-alt",
+      "file": "p-paleta-sombras-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#c49a84",
+      "shape": "palette",
+      "label": "Paleta de sombras",
+      "prompt": "An open eyeshadow palette with 12 nude and brown shades on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-serum-vitamina-c",
+      "file": "p-serum-vitamina-c.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#f0a13a",
+      "shape": "dropper",
+      "label": "Sérum vitamina C",
+      "prompt": "An amber glass serum dropper bottle on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-serum-vitamina-c-alt",
+      "file": "p-serum-vitamina-c-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#f0a13a",
+      "shape": "dropper",
+      "label": "Sérum vitamina C",
+      "prompt": "An amber glass serum dropper bottle on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-crema-facial",
+      "file": "p-crema-facial.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#f4e4e3",
+      "shape": "jar",
+      "label": "Crema hidratante facial",
+      "prompt": "A white cream jar with the lid off showing rich white cream on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-crema-facial-alt",
+      "file": "p-crema-facial-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#f4e4e3",
+      "shape": "jar",
+      "label": "Crema hidratante facial",
+      "prompt": "A white cream jar with the lid off showing rich white cream on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-protector-solar",
+      "file": "p-protector-solar.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#f2d6a2",
+      "shape": "tube",
+      "label": "Protector solar FPS 50",
+      "prompt": "A cream-colored squeeze tube of facial sunscreen on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-protector-solar-alt",
+      "file": "p-protector-solar-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#f2d6a2",
+      "shape": "tube",
+      "label": "Protector solar FPS 50",
+      "prompt": "A cream-colored squeeze tube of facial sunscreen on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-agua-micelar",
+      "file": "p-agua-micelar.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#cfe3ef",
+      "shape": "bottle-tall",
+      "label": "Agua micelar",
+      "prompt": "A clear plastic bottle of micellar water with pale blue liquid on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-agua-micelar-alt",
+      "file": "p-agua-micelar-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#cfe3ef",
+      "shape": "bottle-tall",
+      "label": "Agua micelar",
+      "prompt": "A clear plastic bottle of micellar water with pale blue liquid on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-crema-corporal",
+      "file": "p-crema-corporal.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#c8a27c",
+      "shape": "pump",
+      "label": "Crema corporal",
+      "prompt": "A large body lotion pump bottle in warm brown tones on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-crema-corporal-alt",
+      "file": "p-crema-corporal-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#c8a27c",
+      "shape": "pump",
+      "label": "Crema corporal",
+      "prompt": "A large body lotion pump bottle in warm brown tones on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-jabones",
+      "file": "p-jabones.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#d8c3a5",
+      "shape": "soap",
+      "label": "Jabones vegetales",
+      "prompt": "A stack of five natural vegetable soap bars in pastel colors on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-jabones-alt",
+      "file": "p-jabones-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#d8c3a5",
+      "shape": "soap",
+      "label": "Jabones vegetales",
+      "prompt": "A stack of five natural vegetable soap bars in pastel colors on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-shampoo",
+      "file": "p-shampoo.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#e6d3c2",
+      "shape": "pump",
+      "label": "Shampoo reparador",
+      "prompt": "A shampoo bottle with a flip cap in cream color on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-shampoo-alt",
+      "file": "p-shampoo-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#e6d3c2",
+      "shape": "pump",
+      "label": "Shampoo reparador",
+      "prompt": "A shampoo bottle with a flip cap in cream color on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    },
+    {
+      "key": "p-set-regalo",
+      "file": "p-set-regalo.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#e9b8b0",
+      "shape": "box",
+      "label": "Set de regalo",
+      "prompt": "A gift set box containing a perfume bottle and a body cream, with a satin ribbon on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo."
+    },
+    {
+      "key": "p-set-regalo-alt",
+      "file": "p-set-regalo-alt.svg",
+      "size": "1024x1024",
+      "bg": "#f5f5f5",
+      "color": "#e9b8b0",
+      "shape": "box",
+      "label": "Set de regalo",
+      "prompt": "A gift set box containing a perfume bottle and a body cream, with a satin ribbon on a seamless very light gray (#f5f5f5) background, centered, soft shadow, e-commerce product photo. Second angle: product shown with its texture swatch beside it."
+    }
+  ]
+}
